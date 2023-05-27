@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-white);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+:root {
+	--color-button-green: #bbf330;
+	--color-dark-green: #7eb101;
+	--color-yellow-main: #ffe550;
+	--color-black: #2c2c2c;
+	--color-white: #fefefe;
+	--color-shadow-fruit: radial-gradient(#2f583f 0%,#696969 100%);
+	--color-2: #a7ce47;
+	--color-текст: #3d3d3d;
+	--color-текст-2: #969696;
+	--color-текст-3: #4a4a4a;
+	--color-grad-1: linear-gradient(to bottom, #fe88b3 0%,#ff4d8d 100%);
+	--color-grad-2: linear-gradient(to bottom, #fdfdfd 0%,#fff5f9 23.87%,#fe88b3 100%);
+}
+
+.header {
+}
+.header-menu {
+}
+.header-nav {
+}
+.header-list {
+}
+.link-item {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-black);
+}
+.link-item:hover,
+.link-item:focus{
+    text-decoration-line: underline;
+    color: var(--color-button-green);
+
+}
+
+.header-btn {
+    background: var(--color-button-green);
+    color: var(--color-black);
+    cursor: pointer;
+    border: none;
+}
+
+/*-------------ENJOY---------*/
+
+.enjoy {
+}
+.enjoy-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: var(--color-black);
+}
+.enjoy-text {
+    font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-black);
+}
+.enjoy-btn {
+    background: var(--color-button-green);
+    color: var(--color-black);
+    cursor: pointer;
+    border: none;
+}
+
+/*-------------OFFERINGS-------*/
+
+.offerings {
+}
+.offerings-title {
+    font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+color: var(--color-black);
+}
+.offerings-text {
+    font-size: 16px;
+line-height: 1.5;
+color: var(--color-black);
+
+}
+.list {
+}
+.offerings-list {
+}
+.offerings-subtitle {
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.4;
+color: var(--color-black);
+}
+.offerings-subtext {
+    font-size: 14px;
+line-height: 1.5;
+color: var(--color-black);
+}
+.offerings-btn {
+    background: #FFFFFF;
+    color: var(--color-black);
+    cursor: pointer;
+    border-color: var(--color-dark-green);
+}
+
+/*------------------FAVORITES-----------*/
+
+.favorites {
+}
+.favorites-title {
+    font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+text-align: center;
+color: var(--color-black);
+}
+
+.favorites-text {
+    font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--color-black);
+}
+.list {
+}
+.favorites-list {
+}
+
+/*-----------CUSTOMERS-----------*/
+
+.customers {
+}
+.customers-title {
+    font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+color: var(--color-black);
+}
+.customers-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+}
+.list {
+}
+.customers-list {
+}
+.customers-subtext {
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+color: var(--color-black);
+}
+.customers-subtitle {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.5;
+color: var(--color-black);
+}
+.customers-some {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: var(--color-black);
+}
+
+/*----------SPECIAL-------*/
+
+.special {
+}
+.special-title {
+    font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+color: var(--color-black);
+}
+.special-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-black)
+}
+.special-btn {
+    background: var(--color-button-green);
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.special-email {
+    font-size: 12px;
+line-height: 1.5;
+color: #505050;
+border-color: var(--color-yellow-main);
+}
+
+/*-----------FOOTER-----------*/
+
+.footer {
+}
+.footer-list {
+}
+.policy-link {
+    font-size: 12px;
+line-height: 1.7;
+color: var(--color-button-green);
+}
+.policy-text {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.5;
+color: var(--color-black);
+}
+.policy-subtext {
+    font-size: 12px;
+line-height: 1.17;
+color: var(--color-black);
+}
+
+.privacy {
+    font-size: 12px;
+line-height: 1.17;
+text-decoration-line: underline;
+color: var(--color-dark-green)
+}
+.policy-subsub {
+    font-size: 12px;
+line-height: 1.17;
+color: var(--color-black);
+}
+
+.footer-email {
+    font-size: 12px;
+line-height: 1.5;
+color: #505050;
+border-color: var(--color-yellow-main);
+}
+
+.footer-btn {
+    font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-white);
+border-color: var(--color-dark-green);
+}
+
+

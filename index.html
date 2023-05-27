@@ -4,34 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
+
   <body>
-    <header>
-      <a href="./index.html"
+
+    <header class="header">
+      <a href="./index.html" class="link header-menu"
         ><img src="./images/Vector.svg" alt="Logo" width="66" height="52"
       /></a>
-      <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
+      <nav class="header-nav">
+      <ul class="list header-list">
+        <li><a href="" class="link link-item">Home</a></li>
+        <li><a href="" class="link link-item">About</a></li>
+        <li><a href="" class="link link-item">Service</a></li>
+        <li><a href="" class="link link-item">Menu</a></li>
+        <li><a href="" class="link link-item">Contact</a></li>
       </ul>
       </nav>
-      <button type="button">Order Now</button>
+      <button type="button" class="header-btn">Order Now</button>
     </header>
+
     <main>
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
+
+      <section class="enjoy">
+        <h1 class="enjoy-title">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class="enjoy-text">
           With just a few clicks, you can have your favorite meals delivered
           straight to your doorstep, no matter where you are. Order now and
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button type="button">Order Now</button>
+        <button type="button" class="enjoy-btn">Order Now</button>
         <img
           src="./images/Foto1.png"
           alt="meat boals"
@@ -40,38 +48,38 @@
         />
       </section>
 
-      <section>
+      <section class="offerings">
         <img src="./images/aple.jpg" alt="apple" width="396" height="502" />
-        <h2>What’s Special About Our Offerings</h2>
-        <p>
+        <h2 class="offerings-title">What’s Special About Our Offerings</h2>
+        <p class="offerings-text">
           With our platform, you can browse through a diverse selection of
           cuisines and local restaurants, and choose from a variety of dishes
           that cater to your specific taste buds.
         </p>
-        <ul>
+        <ul class="list offerings-list">
           <li>
-            <h3>Fasest Delivery</h3>
-            <p>
+            <h3 class="offerings-subtitle">Fasest Delivery</h3>
+            <p class="offerings-subtext">
               Our advanced logistics system and dedicated delivery partners
               ensure that your meals are delivered to you within 30-minutes.
             </p>
           </li>
           <li>
-            <h3>Easy To Order</h3>
-            <p>
+            <h3 class="offerings-subtitle">Easy To Order</h3>
+            <p class="offerings-subtext">
               You can browse through a wide variety of cuisines and restaurants,
               select your favorite meals, and place your order in just a few
               clicks.
             </p>
           </li>
         </ul>
-        <button type="button">Order Now</button>
+        <button type="button" class="offerings-btn">Order Now</button>
       </section>
 
-      <section>
-        <h2>Some of Our Favorites</h2>
-        <p>Looking for something delicious? </p>
-        <ul>
+      <section class="favorites">
+        <h2 class="favorites-title">Some of Our Favorites</h2>
+        <p class="favorites-text">Looking for something delicious? </p>
+        <ul class="list favorites-list">
             <li>
                 <img src="./images/gamburger.png" alt="gamburger" width="315" height="315">
             </li>
@@ -93,55 +101,58 @@
         </ul>
       </section>
 
-      <section>
-        <h2>What our Customers Say</h2>
-        <p>Don't just take our word for it - see what our satisfied customers have to say</p>
-        <ul>
+      <section class="customers">
+        <h2 class="customers-title">What our Customers Say</h2>
+        <p class="customers-text">Don't just take our word for it - see what our satisfied customers have to say</p>
+        <ul class="list customers-list">
             <li>
-                <p>“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”</p>
+                <p class="customers-subtext">“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”</p>
                 <img src="./images/Ellipse1.jpg" alt="man" width="48" height="48">
-                <h3>Sumith Shah</h3>
-                <p>Some Dude</p>
+                <h3 class="customers-subtitle">Sumith Shah</h3>
+                <p class="customers-some">Some Dude</p>
             </li>
             <li>
-                <p>“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app”</p>
+                <p class="customers-subtext">“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app”</p>
                 <img src="./images/Ellipse2.jpg" alt="woman" width="48" height="48">
-                <h3>Sumith Shah</h3>
-                <p>Some Dude</p>
+                <h3 class="customers-subtitle">Sumith Shah</h3>
+                <p class="customers-some">Some Dude</p>
             </li>
         </ul>
       </section>
 
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
-        <form action=""><input placeholder="Enter your email" type="text">
-            <button>Subscribe</button>
+      <section class="special">
+        <h2 class="special-title">Subscribe To Get Special Offers</h2>
+        <p class="special-text">Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
+        <form action=""><input placeholder="Enter your email" type="text" class="special-email">
+            <button class="special-btn">Subscribe</button>
         </form>
         <img src="./images/banan.png" alt="banana" width="608" height="266">
       </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <a href="./index.html"><img src="./images/Vector.svg" alt="Logo" width="66" height="52"></a>
         <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
+        <ul class="list footer-list">
+            <li><a href="" class="link link-item">Home</a></li>
+            <li><a href="" class="link link-item">About</a></li>
+            <li><a href="" class="link link-item">Service</a></li>
+            <li><a href="" class="link link-item">Menu</a></li>
+            <li><a href="" class="link link-item">Contact</a></li>
         </ul>
         </nav>
-        <ul>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Terms of Service</a></li>
-            <li><a href="">Cookies Settings</a></li>
+        <ul class="list polisy">
+            <li><a href="" class="policy-link">Privacy Policy</a></li>
+            <li><a href="" class="policy-link">Terms of Service</a></li>
+            <li><a href="" class="policy-link">Cookies Settings</a></li>
         </ul>
-        <p>Subscribe</p>
-        <form action=""><input placeholder="Enter your email" type="text"><button type="submit">Subscribe</button></form>
-        <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
-        <p>2022 FoodSta. All right reserved.</p>
+        <p class="policy-text">Subscribe</p>
+        <form action=""><input placeholder="Enter your email" type="text" class="footer-email"><button type="submit" class="footer-btn">Subscribe</button></form>
+        <p class="policy-subtext">By subscribing you agree to with our <a href="" class="privacy">Privacy Policy</a></p>
+        <p class="policy-subsub">2022 FoodSta. All right reserved.</p>
     </footer>
+
   </body>
+
 </html>
